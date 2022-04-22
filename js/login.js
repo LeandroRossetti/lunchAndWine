@@ -33,18 +33,18 @@ function saveDate() {
    }
 
    else {
-   localStorage.setItem('name', inputName.value)
-   localStorage.setItem('nameEmail', inputEmail.value)
-   localStorage.setItem('password', inputPassword.value)
+      localStorage.setItem('name', inputName.value)
+      localStorage.setItem('nameEmail', inputEmail.value)
+      localStorage.setItem('password', inputPassword.value)
 
 
-   Swal.fire({
-      title: 'Usuario creado exitosamente',
-      text: 'Ya puedes iniciar sesión con tu usuario.',
-      icon: 'success',
-      confirmButtonText: 'Confirmar'
-   })
-}
+      Swal.fire({
+         title: 'Usuario creado exitosamente',
+         text: 'Ya puedes iniciar sesión con tu usuario.',
+         icon: 'success',
+         confirmButtonText: 'Confirmar'
+      })
+   }
 
 }
 

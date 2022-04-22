@@ -2,64 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link rel="icon" href="./img/icono/a1.png">
-    <link rel="stylesheet" href="./libs/boostrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./libs/sweetAlert/sweetalert2.css">
-    <link rel="stylesheet" href="./css/login.css">
-    <title>Lunch & Wine</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="./img/icono/a1.png">
+  <link rel="stylesheet" href="./libs/boostrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./libs/sweetAlert/sweetalert2.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <title>Lunch & Wine</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Vinoteca </a>
-      
-    
-        <span class="navbar-text pointer">
-          <i class="fa-solid fa-right-from-bracket "> Salir </i>
-        </span>
-      
+
+
+      <span class="navbar-text pointer">
+        <i class="fa-solid fa-right-from-bracket "> Salir </i>
+      </span>
+
     </div>
   </nav>
-  
-<h1>Bievenido a Lunch and Wine</h1>
-<h2>Si te registras obtendras un 10% de descuento en tu compra.</h2>
-<h2>También puedes elegir entrar como invitado, donde no dejas tus datos pero no obtienes el descuento. </h2>
- 
+
+  <h1>Bievenido a Lunch and Wine</h1>
+
+
   <div class="wrapper fadeInDown">
     <div id="formContent">
       <!-- Tabs Titles -->
-  
+
       <!-- Icon -->
       <div class="fadeIn first">
         <img src="./img/users-sign-svgrepo-com.svg" id="icon" alt="User Icon" />
       </div>
-  
+
       <!-- Login Form -->
       <form>
         <input type="text" id="name" class="fadeIn second" name="name" placeholder="Nombre">
-        <input type="email" id="email" class="fadeIn second" name="email" placeholder="Email" pattern=".+@\.com" title="salchicha">
+        <input type="email" id="email" class="fadeIn second" name="email" placeholder="Email" pattern=".+@\.com"
+          title="salchicha">
         <input type="password" id="password" class="fadeIn third" name="password" placeholder="Contraseña">
         <input type="button" id="login" class="fadeIn fourth" value="Inicia sesion">
         <input type="button" id="register" class="fadeIn fourth" value="Registrarse">
-        <input type="button"  id="invitado" class="fadeIn fourth" value="Invitado">
+        <input type="button" id="invitado" class="fadeIn fourth" value="Invitado">
       </form>
-  
+
       <!-- Remind Passowrd -->
       <div id="formFooter">
         <a class="underlineHover" href="#">Forgot Password?</a>
       </div>
-  
+
     </div>
   </div>
- <script src="./libs/sweetAlert/sweetalert2.min.js"></script>
-<script src="./js/login.js"></script>
+  <script src="./libs/sweetAlert/sweetalert2.min.js"></script>
+  <script src="./js/login.js"></script>
 </body>
+
 </html>

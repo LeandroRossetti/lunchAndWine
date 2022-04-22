@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }
                 totalH6.innerHTML = '$' + total.toString();
-    
+
             }
             else {
                 return Swal.fire({
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 })
             }
         }
-    
+
 
 
 
